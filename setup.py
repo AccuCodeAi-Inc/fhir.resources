@@ -18,7 +18,7 @@ with open("README.rst") as readme_file:
 with open("HISTORY.rst") as history_file:
     history = history_file.read()
 
-requirements = ["git+https://github.com/AccuCodeAi-Inc/fhir.resources.git"]
+requirements = ["https://github.com/AccuCodeAi-Inc/fhir.resources.git"]
 if PY_VERSION_9_OR_EARLIER:
     requirements.append("eval-type-backport")
 
